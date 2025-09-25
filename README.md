@@ -1,7 +1,7 @@
 <!-- Profile README for nl-t-ln -->
 <p align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.herokuapp.com?size=32&duration=4000&multiline=true&width=600&height=120&lines=Hi%2C+I'm+Nitin+Pandey" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.herokuapp.com?size=32&duration=4000&multiline=true&width=600&height=120&lines=        Hi%2C+I'm+Nitin+Pandey" alt="Typing SVG" />
   </a>
 </p>
 
