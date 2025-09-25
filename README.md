@@ -1,7 +1,9 @@
 <!-- Profile README for nl-t-ln -->
-
-<h1 align="center">Hi 👋, I'm nl-t-ln</h1>
-<h3 align="center">ECE Student | IoT & Embedded Dev | Web Dev Enthusiast | Cybersecurity Learner</h3>
+<p align="center">
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.herokuapp.com?size=32&duration=4000&multiline=true&width=600&height=120&lines=Hi%2C+I'm+Nitin+Pandey" alt="Typing SVG" />
+  </a>
+</p>
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=nl-t-ln&label=Profile%20views&color=0e75b6&style=flat" alt="Profile Views" />
