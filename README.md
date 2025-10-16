@@ -1,9 +1,8 @@
 <!-- Profile README for nl-t-ln -->
 <p align="center">
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.herokuapp.com?size=32&duration=4000&multiline=true&width=600&height=120&lines=Hi%2C+I'm+Nitin+Pandey" alt="Typing SVG" />
-  </a>
-</p>
+  
+  ![Header](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20,24,30&height=300&section=header&text=Nitin%20Pandey&fontSize=80&fontColor=fff&animation=twinkling&fontAlignY=35&desc=Bug%20Creator%20%7C%20Cybersecurity%20%7C%20Web%20Developer&descAlignY=55&descSize=20)
+
 
 ---
 
