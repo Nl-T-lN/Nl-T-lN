@@ -68,6 +68,10 @@
 
 ---
 
+[![An image of @nltln's Holopin badges, which is a link to view their full Holopin profile](https://holopin.me/nltln)](https://holopin.io/@nltln)
+
+---
+
 ## 📫 Connect with Me
 <p align="center">
   <a href="https://github.com/nl-t-ln"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"></a>
