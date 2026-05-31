@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Scan GitHub repos, detect tech stack, update README table with icons."""
 
-import os, json, re, base64, urllib.request, urllib.error
+import os, json, re, base64, urllib.request, urllib.error, math
 
 TOKEN = os.environ.get("GITHUB_TOKEN", "")
 USER = os.environ.get("GITHUB_USER", "nl-t-ln")
@@ -166,19 +166,76 @@ def download_icon(icon_file, devicon_name):
 def build_table(items):
     """items: list of (display_name, icon_file)"""
     lines = ['<table align="center">']
-    for i in range(0, len(items), COLS):
-        row = items[i : i + COLS]
+    rows = 4
+    cols = math.ceil(len(items) / rows)
+    
+    grid = [[None for _ in range(cols)] for _ in range(rows)]
+    
+    for i, item in enumerate(items):
+        r = i % rows
+        c = i // rows
+        grid[r][c] = item
+        
+    for r in range(rows):
         lines.append("    <tr>")
-        for name, icon in row:
-            lines.append(
-                f'        <td align="center" width="90">'
-                f'<img height="55" src="./icons/{icon}.svg" width="55">'
-                f"<br>{name}</td>"
-            )
+        for c in range(cols):
+            item = grid[r][c]
+            if item:
+                name, icon = item
+                lines.append(
+                    f'        <td align="center" width="90">'
+                    f'<img height="55" src="./icons/{icon}.svg" width="55">'
+                    f"<br>{name}</td>"
+                )
+            else:
+                lines.append('        <td align="center" width="90"></td>')
         lines.append("    </tr>")
     lines.append("</table>")
     return "\n".join(lines)
 
+
+def build_details(tech_repos):
+    """Generate a collapsible <details> section mapping tech → repos."""
+    lines = []
+    lines.append("<details>")
+    lines.append("<summary><b>where each stack is used →</b></summary>")
+    lines.append("<br>")
+    lines.append("")
+    for display, repos in sorted(tech_repos.items(), key=lambda t: t[0].lower()):
+        if not repos:
+            continue
+        repo_links = ", ".join(
+            f'<a href="https://github.com/{USER}/{r}">{r}</a>' for r in sorted(repos)
+        )
+        lines.append(f"**{display}** — {repo_links}")
+        lines.append("")
+    lines.append("</details>")
+    return "\n".join(lines)
+
+
+def parse_existing(content, techs, tech_repos):
+    """Parse existing auto-generated block to ensure we never delete anything."""
+    start = content.find("<!-- STACK:AUTO:START -->")
+    end = content.find("<!-- STACK:AUTO:END -->")
+    if start == -1 or end == -1:
+        return
+    
+    block = content[start:end]
+    
+    # Parse existing table items
+    for match in re.finditer(r'<img[^>]+src="\./icons/([^.]+)\.svg"[^>]*><br>([^<]+)</td>', block):
+        icon = match.group(1)
+        name = match.group(2)
+        if name not in techs:
+            techs[name] = (icon, "")  # empty devicon since it's already downloaded
+        
+    # Parse existing repo mappings
+    for match in re.finditer(r'\*\*([^*]+)\*\* — (.*)', block):
+        name = match.group(1)
+        links = match.group(2)
+        for r_match in re.finditer(r'>([^<]+)</a>', links):
+            repo = r_match.group(1)
+            tech_repos.setdefault(name, set()).add(repo)
 
 def main():
     os.makedirs(ICONS, exist_ok=True)
@@ -187,7 +244,14 @@ def main():
     repos = get_repos()
     print(f"Found {len(repos)} repos\n")
 
-    techs = set()  # set of (display, icon_file, devicon_name)
+    techs = {}           # display_name -> (icon_file, devicon_name)
+    tech_repos = {}      # display_name -> set of repo names
+
+    def track(tech_tuple, repo_name):
+        """Add a tech and record which repo it came from."""
+        name, icon, devicon = tech_tuple
+        techs[name] = (icon, devicon)
+        tech_repos.setdefault(name, set()).add(repo_name)
 
     for repo in repos:
         if repo.get("fork"):
@@ -199,33 +263,41 @@ def main():
         langs = api(f"/repos/{USER}/{name}/languages") or {}
         for lang in langs:
             if lang in LANGS:
-                techs.add(LANGS[lang])
+                track(LANGS[lang], name)
 
         # file indicators
-        techs.update(scan_files(name))
+        for t in scan_files(name):
+            track(t, name)
 
         # npm frameworks (only if JS/TS present)
         if any(l in langs for l in ("JavaScript", "TypeScript")):
-            techs.update(scan_npm(name))
+            for t in scan_npm(name):
+                track(t, name)
 
         # pip frameworks (only if Python present)
         if "Python" in langs:
-            techs.update(scan_pip(name))
+            for t in scan_pip(name):
+                track(t, name)
 
-    # always include Git + GitHub
-    techs.add(("Git", "git", "git"))
-    techs.add(("GitHub", "github", "github"))
+    # always include Git + GitHub (no specific repo)
+    techs["Git"] = ("git", "git")
+    techs["GitHub"] = ("github", "github")
 
-    # load manual entries
+    # load manual entries (no specific repo)
     if os.path.exists(MANUAL):
         with open(MANUAL) as f:
             for entry in json.load(f):
-                # manual items use local icons only, no devicon download
-                techs.add((entry["name"], entry["icon"], entry.get("devicon", "")))
+                techs[entry["name"]] = (entry["icon"], entry.get("devicon", ""))
+
+    with open(README) as f:
+        content = f.read()
+
+    # NEVER DELETE: Merge with existing items from README
+    parse_existing(content, techs, tech_repos)
 
     # dedupe, sort, download missing icons
     valid = []
-    for display, icon_file, devicon in sorted(techs, key=lambda t: t[0].lower()):
+    for display, (icon_file, devicon) in sorted(techs.items(), key=lambda t: t[0].lower()):
         if os.path.exists(os.path.join(ICONS, f"{icon_file}.svg")):
             valid.append((display, icon_file))
             print(f"  ✓ {display}")
@@ -235,15 +307,12 @@ def main():
         else:
             print(f"  ✗ {display} (skipped, no icon)")
 
-    # build table and update README
     table = build_table(valid)
+    details = build_details(tech_repos)
     start, end = "<!-- STACK:AUTO:START -->", "<!-- STACK:AUTO:END -->"
 
-    with open(README) as f:
-        content = f.read()
-
     pat = re.compile(re.escape(start) + r".*?" + re.escape(end), re.DOTALL)
-    replacement = f"{start}\n{table}\n{end}"
+    replacement = f"{start}\n{table}\n\n{details}\n{end}"
 
     if pat.search(content):
         content = pat.sub(replacement, content)

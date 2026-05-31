@@ -2,7 +2,7 @@ name: Update Tech Stack
 
 on:
   schedule:
-    - cron: '0 18 * * 0' # every Sunday 11:30 PM IST
+    - cron: '20 18 * * 0' # every Sunday 11:50 PM IST
   push:
     branches: [main]
   workflow_dispatch: # manual trigger from Actions tab
