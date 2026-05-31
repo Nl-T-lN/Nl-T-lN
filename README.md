@@ -62,6 +62,34 @@
 <summary><b>where each stack is used →</b></summary>
 <br>
 
+**CSS3** — <a href="https://github.com/Nl-T-lN/AutoOmr">AutoOmr</a>, <a href="https://github.com/Nl-T-lN/Golden-hands">Golden-hands</a>, <a href="https://github.com/Nl-T-lN/NasaSpaceApps25">NasaSpaceApps25</a>, <a href="https://github.com/Nl-T-lN/Predictive_pulse">Predictive_pulse</a>, <a href="https://github.com/Nl-T-lN/To-Do-List">To-Do-List</a>, <a href="https://github.com/Nl-T-lN/closet">closet</a>, <a href="https://github.com/Nl-T-lN/cypher-log">cypher-log</a>, <a href="https://github.com/Nl-T-lN/mythx">mythx</a>, <a href="https://github.com/Nl-T-lN/sky-clock">sky-clock</a>, <a href="https://github.com/Nl-T-lN/ventify">ventify</a>
+
+**Docker** — <a href="https://github.com/Nl-T-lN/AutoOmr">AutoOmr</a>
+
+**Flask** — <a href="https://github.com/Nl-T-lN/Predictive_pulse">Predictive_pulse</a>
+
+**HTML5** — <a href="https://github.com/Nl-T-lN/AutoOmr">AutoOmr</a>, <a href="https://github.com/Nl-T-lN/Golden-hands">Golden-hands</a>, <a href="https://github.com/Nl-T-lN/Nl-T-lN">Nl-T-lN</a>, <a href="https://github.com/Nl-T-lN/Predictive_pulse">Predictive_pulse</a>, <a href="https://github.com/Nl-T-lN/To-Do-List">To-Do-List</a>, <a href="https://github.com/Nl-T-lN/closet">closet</a>, <a href="https://github.com/Nl-T-lN/cypher-log">cypher-log</a>, <a href="https://github.com/Nl-T-lN/sky-clock">sky-clock</a>
+
+**JavaScript** — <a href="https://github.com/Nl-T-lN/AutoOmr">AutoOmr</a>, <a href="https://github.com/Nl-T-lN/NasaSpaceApps25">NasaSpaceApps25</a>, <a href="https://github.com/Nl-T-lN/To-Do-List">To-Do-List</a>, <a href="https://github.com/Nl-T-lN/cypher-log">cypher-log</a>, <a href="https://github.com/Nl-T-lN/mythx">mythx</a>, <a href="https://github.com/Nl-T-lN/sky-clock">sky-clock</a>, <a href="https://github.com/Nl-T-lN/ventify">ventify</a>
+
+**Kotlin** — <a href="https://github.com/Nl-T-lN/Arize">Arize</a>, <a href="https://github.com/Nl-T-lN/saathi">saathi</a>
+
+**Next.js** — <a href="https://github.com/Nl-T-lN/NasaSpaceApps25">NasaSpaceApps25</a>, <a href="https://github.com/Nl-T-lN/mythx">mythx</a>, <a href="https://github.com/Nl-T-lN/ventify">ventify</a>
+
+**NumPy** — <a href="https://github.com/Nl-T-lN/Predictive_pulse">Predictive_pulse</a>
+
+**Pandas** — <a href="https://github.com/Nl-T-lN/Predictive_pulse">Predictive_pulse</a>
+
+**Python** — <a href="https://github.com/Nl-T-lN/AutoOmr">AutoOmr</a>, <a href="https://github.com/Nl-T-lN/Predictive_pulse">Predictive_pulse</a>
+
+**React** — <a href="https://github.com/Nl-T-lN/AutoOmr">AutoOmr</a>, <a href="https://github.com/Nl-T-lN/NasaSpaceApps25">NasaSpaceApps25</a>, <a href="https://github.com/Nl-T-lN/cypher-log">cypher-log</a>, <a href="https://github.com/Nl-T-lN/mythx">mythx</a>, <a href="https://github.com/Nl-T-lN/sky-clock">sky-clock</a>, <a href="https://github.com/Nl-T-lN/ventify">ventify</a>
+
+**Swift** — <a href="https://github.com/Nl-T-lN/iosmovie">iosmovie</a>
+
+**Tailwind** — <a href="https://github.com/Nl-T-lN/AutoOmr">AutoOmr</a>, <a href="https://github.com/Nl-T-lN/NasaSpaceApps25">NasaSpaceApps25</a>, <a href="https://github.com/Nl-T-lN/mythx">mythx</a>
+
+**TypeScript** — <a href="https://github.com/Nl-T-lN/AutoOmr">AutoOmr</a>, <a href="https://github.com/Nl-T-lN/NasaSpaceApps25">NasaSpaceApps25</a>, <a href="https://github.com/Nl-T-lN/mythx">mythx</a>, <a href="https://github.com/Nl-T-lN/ventify">ventify</a>
+
 </details>
 <!-- STACK:AUTO:END -->
 
