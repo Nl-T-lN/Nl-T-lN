@@ -1,80 +1,74 @@
-<!-- Profile README for nl-t-ln -->
+<img src="assets/kirokaze-5.gif" width="100%" />
+
+<div align="center">
+
+```
+   _____       __        __                              ____                  __     
+  / ___/____ _/ /_  ____/ /___ __________ _____         / __ \____ _____  ____/ /___ _
+  \__ \/ __ `/ __ \/ __  / __ `/ ___/ __ `/ __ \       / /_/ / __ `/ __ \/ __  / __ `/
+ ___/ / /_/ / / / / /_/ / /_/ / /  / /_/ / / / /      / ____/ /_/ / / / / /_/ / /_/ / 
+/____/\__,_/_/ /_/\__,_/\__,_/_/   \__,_/_/ /_/      /_/    \__,_/_/ /_/\__,_/\__,_/  
+```
+
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&pause=1000&color=7AA2F7&center=true&vCenter=true&random=false&width=435&lines=Build+%E2%86%92+Break+%E2%86%92+Fix" alt="Typing SVG" />
+
+<br/>
+
+<a href="https://linkedin.com/in/-nitinpandey-"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a>&nbsp;<a href="mailto:nitinpandey11223@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"></a>
+
+</div>
+
+<img src="https://www.animatedimages.org/data/media/562/animated-line-image-0184.gif" width="100%"/>
+
+<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Laptop.png" width="30">&nbsp;**_Stack I use_**
+
+<table align="center">
+    <tr>
+        <td align="center" width="90"><img height="55" src="./icons/c.svg" width="55"><br>C</td>
+        <td align="center" width="90"><img height="55" src="./icons/cplusplus.svg" width="55"><br>C++</td>
+        <td align="center" width="90"><img height="55" src="./icons/python.svg" width="55"><br>Python</td>
+        <td align="center" width="90"><img height="55" src="./icons/java.svg" width="55"><br>Java</td>
+        <td align="center" width="90"><img height="55" src="./icons/javascript.svg" width="55"><br>JavaScript</td>
+        <td align="center" width="90"><img height="55" src="./icons/html5.svg" width="55"><br>HTML5</td>
+        <td align="center" width="90"><img height="55" src="./icons/css3.svg" width="55"><br>CSS3</td>
+    </tr>
+    <tr>
+        <td align="center" width="90"><img height="55" src="./icons/react.svg" width="55"><br>React</td>
+        <td align="center" width="90"><img height="55" src="./icons/nodejs.svg" width="55"><br>Node.js</td>
+        <td align="center" width="90"><img height="55" src="./icons/express.svg" width="55"><br>Express.js</td>
+        <td align="center" width="90"><img height="55" src="./icons/mongodb.svg" width="55"><br>MongoDB</td>
+        <td align="center" width="90"><img height="55" src="./icons/docker.svg" width="55"><br>Docker</td>
+        <td align="center" width="90"><img height="55" src="./icons/git.svg" width="55"><br>Git</td>
+        <td align="center" width="90"><img height="55" src="./icons/github.svg" width="55"><br>GitHub</td>
+    </tr>
+    <tr>
+        <td align="center" width="90"><img height="55" src="./icons/linux.svg" width="55"><br>Linux</td>
+        <td align="center" width="90"><img height="55" src="./icons/vscode.svg" width="55"><br>VS Code</td>
+        <td align="center" width="90"><img height="55" src="./icons/arduino.svg" width="55"><br>Arduino</td>
+        <td align="center" width="90"><img height="55" src="./icons/esp32.svg" width="55"><br>ESP32</td>
+        <td align="center" width="90"><img height="55" src="./icons/raspberrypi.svg" width="55"><br>Raspberry Pi</td>
+        <td align="center" width="90"><img height="55" src="./icons/stm32.svg" width="55"><br>STM32</td>
+    </tr>
+</table>
+
+<img src="https://www.animatedimages.org/data/media/562/animated-line-image-0184.gif" width="100%"/>
+
 <p align="center">
-  
-  ![Header](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20,24,30&height=300&section=header&text=Nitin%20Pandey&fontSize=80&fontColor=fff&animation=twinkling&fontAlignY=35&desc=Bug%20Creator%20%7C%20Cybersecurity%20%7C%20Web%20Developer&descAlignY=55&descSize=20)
+  <img src="https://github-readme-streak-stats-eight.vercel.app/?user=nl-t-ln&theme=tokyonight&hide_border=true&background=1a1b27" width="60%" />
+</p>
 
+<img src="https://www.animatedimages.org/data/media/562/animated-line-image-0184.gif" width="100%"/>
 
----
-
-## About Me
-- **B.Tech in Electronics & Communication Engineering (ECE)**
-- **IoT, Embedded Systems, Web Development, and Cybersecurity**
-- Always exploring & building cool side projects
-
----
-
-## GitHub Trophies
 <p align="center">
-  <a href="https://github.com/ryo-ma/github-profile-trophy">
-    <img src="https://github-profile-trophy.vercel.app/?username=nl-t-ln&theme=tokyonight&margin-w=10&margin-h=10&row=2&column=3" alt="GitHub Trophies"/>
+  <a href="https://holopin.io/@nltln">
+    <img src="https://holopin.me/nltln" alt="Holopin badges"/>
   </a>
 </p>
 
----
+<img src="https://www.animatedimages.org/data/media/562/animated-line-image-0184.gif" width="100%"/>
 
-## Tech Stack
-
-### Programming
-![C](https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black)
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Java](https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7E017?style=for-the-badge&logo=javascript&logoColor=black)
-
-### Web & App
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![React](https://img.shields.io/badge/React-20232a?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
-
-### IoT & Hardware
-![Arduino](https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=arduino&logoColor=white)
-![ESP32](https://img.shields.io/badge/ESP32-000000?style=for-the-badge&logo=espressif&logoColor=white)
-![Raspberry Pi](https://img.shields.io/badge/Raspberry%20Pi-C51A4A?style=for-the-badge&logo=raspberrypi&logoColor=white)
-![Stm 32](https://img.shields.io/badge/STM32-03234B?style=for-the-badge&logo=stmicroelectronics&logoColor=white).
-
-### Tools & Platforms
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![VS Code](https://img.shields.io/badge/VS%20Code-0078d7?style=for-the-badge&logo=visualstudiocode&logoColor=white)
-
----
-
-## GitHub Stats & Activity
+<img src="assets/fireplace.gif" width="100%" />
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=nl-t-ln&show_icons=true&theme=tokyonight" alt="GitHub stats" width="49%"/>
-  <img src="https://github-readme-streak-stats-eight.vercel.app/?user=nl-t-ln&theme=tokyonight" width="50%" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20,24,30&height=120&section=footer" width="100%"/>
 </p>
-
-
-
----
-
-[![An image of @nltln's Holopin badges, which is a link to view their full Holopin profile](https://holopin.me/nltln)](https://holopin.io/@nltln)
-
----
-
-## Connect with Me
-<p align="center">
-  <a href="https://github.com/nl-t-ln"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"></a>
-  <a href="https://linkedin.com/in/-nitinpandey-"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a>
-  <a href="mailto:nitinpandey11223@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"></a>
-</p>
-
----
-
