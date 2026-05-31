@@ -1,0 +1,34 @@
+name: Update Tech Stack
+
+on:
+  schedule:
+    - cron: '0 18 * * 0' # every Sunday 11:30 PM IST
+  push:
+    branches: [main]
+  workflow_dispatch: # manual trigger from Actions tab
+
+jobs:
+  update-stack:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Scan repos and update stack
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_USER: ${{ github.repository_owner }}
+        run: python .github/scripts/update-stack.py
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md icons/
+          git diff --staged --quiet || git commit -m "chore: auto-update tech stack"
+          git push

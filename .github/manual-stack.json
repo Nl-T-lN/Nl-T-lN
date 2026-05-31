@@ -1,0 +1,8 @@
+[
+  { "name": "Linux", "icon": "linux" },
+  { "name": "VS Code", "icon": "vscode" },
+  { "name": "Arduino", "icon": "arduino" },
+  { "name": "ESP32", "icon": "esp32" },
+  { "name": "Raspberry Pi", "icon": "raspberrypi" },
+  { "name": "STM32", "icon": "stm32" }
+]

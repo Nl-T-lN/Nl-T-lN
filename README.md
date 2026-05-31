@@ -22,34 +22,40 @@
 
 <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Laptop.png" width="30">&nbsp;**_Stack I use_**
 
+<!-- STACK:AUTO:START -->
 <table align="center">
     <tr>
-        <td align="center" width="90"><img height="55" src="./icons/c.svg" width="55"><br>C</td>
-        <td align="center" width="90"><img height="55" src="./icons/cplusplus.svg" width="55"><br>C++</td>
-        <td align="center" width="90"><img height="55" src="./icons/python.svg" width="55"><br>Python</td>
-        <td align="center" width="90"><img height="55" src="./icons/java.svg" width="55"><br>Java</td>
-        <td align="center" width="90"><img height="55" src="./icons/javascript.svg" width="55"><br>JavaScript</td>
-        <td align="center" width="90"><img height="55" src="./icons/html5.svg" width="55"><br>HTML5</td>
+        <td align="center" width="90"><img height="55" src="./icons/arduino.svg" width="55"><br>Arduino</td>
         <td align="center" width="90"><img height="55" src="./icons/css3.svg" width="55"><br>CSS3</td>
-    </tr>
-    <tr>
-        <td align="center" width="90"><img height="55" src="./icons/react.svg" width="55"><br>React</td>
-        <td align="center" width="90"><img height="55" src="./icons/nodejs.svg" width="55"><br>Node.js</td>
-        <td align="center" width="90"><img height="55" src="./icons/express.svg" width="55"><br>Express.js</td>
-        <td align="center" width="90"><img height="55" src="./icons/mongodb.svg" width="55"><br>MongoDB</td>
         <td align="center" width="90"><img height="55" src="./icons/docker.svg" width="55"><br>Docker</td>
+        <td align="center" width="90"><img height="55" src="./icons/esp32.svg" width="55"><br>ESP32</td>
+        <td align="center" width="90"><img height="55" src="./icons/flask.svg" width="55"><br>Flask</td>
         <td align="center" width="90"><img height="55" src="./icons/git.svg" width="55"><br>Git</td>
         <td align="center" width="90"><img height="55" src="./icons/github.svg" width="55"><br>GitHub</td>
     </tr>
     <tr>
+        <td align="center" width="90"><img height="55" src="./icons/html5.svg" width="55"><br>HTML5</td>
+        <td align="center" width="90"><img height="55" src="./icons/javascript.svg" width="55"><br>JavaScript</td>
+        <td align="center" width="90"><img height="55" src="./icons/kotlin.svg" width="55"><br>Kotlin</td>
         <td align="center" width="90"><img height="55" src="./icons/linux.svg" width="55"><br>Linux</td>
-        <td align="center" width="90"><img height="55" src="./icons/vscode.svg" width="55"><br>VS Code</td>
-        <td align="center" width="90"><img height="55" src="./icons/arduino.svg" width="55"><br>Arduino</td>
-        <td align="center" width="90"><img height="55" src="./icons/esp32.svg" width="55"><br>ESP32</td>
+        <td align="center" width="90"><img height="55" src="./icons/nextjs.svg" width="55"><br>Next.js</td>
+        <td align="center" width="90"><img height="55" src="./icons/numpy.svg" width="55"><br>NumPy</td>
+        <td align="center" width="90"><img height="55" src="./icons/pandas.svg" width="55"><br>Pandas</td>
+    </tr>
+    <tr>
+        <td align="center" width="90"><img height="55" src="./icons/python.svg" width="55"><br>Python</td>
         <td align="center" width="90"><img height="55" src="./icons/raspberrypi.svg" width="55"><br>Raspberry Pi</td>
+        <td align="center" width="90"><img height="55" src="./icons/react.svg" width="55"><br>React</td>
         <td align="center" width="90"><img height="55" src="./icons/stm32.svg" width="55"><br>STM32</td>
+        <td align="center" width="90"><img height="55" src="./icons/swift.svg" width="55"><br>Swift</td>
+        <td align="center" width="90"><img height="55" src="./icons/tailwindcss.svg" width="55"><br>Tailwind</td>
+        <td align="center" width="90"><img height="55" src="./icons/typescript.svg" width="55"><br>TypeScript</td>
+    </tr>
+    <tr>
+        <td align="center" width="90"><img height="55" src="./icons/vscode.svg" width="55"><br>VS Code</td>
     </tr>
 </table>
+<!-- STACK:AUTO:END -->
 
 <img src="https://www.animatedimages.org/data/media/562/animated-line-image-0184.gif" width="100%"/>
 
