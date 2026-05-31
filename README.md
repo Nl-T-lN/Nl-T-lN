@@ -20,7 +20,7 @@
 
 <img src="https://www.animatedimages.org/data/media/562/animated-line-image-0184.gif" width="100%"/>
 
-<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Laptop.png" width="30">&nbsp;**_Stack I use_**
+**_Stack Used_**
 
 <!-- STACK:AUTO:START -->
 <table align="center">
