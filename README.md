@@ -27,33 +27,33 @@
     <tr>
         <td align="center" width="90"><img height="55" src="./icons/arduino.svg" width="55"><br>Arduino</td>
         <td align="center" width="90"><img height="55" src="./icons/flask.svg" width="55"><br>Flask</td>
+        <td align="center" width="90"><img height="55" src="./icons/java.svg" width="55"><br>Java</td>
+        <td align="center" width="90"><img height="55" src="./icons/nextjs.svg" width="55"><br>Next.js</td>
+        <td align="center" width="90"><img height="55" src="./icons/raspberrypi.svg" width="55"><br>Raspberry Pi</td>
+        <td align="center" width="90"><img height="55" src="./icons/tailwindcss.svg" width="55"><br>Tailwind</td>
+    </tr>
+    <tr>
+        <td align="center" width="90"><img height="55" src="./icons/css3.svg" width="55"><br>CSS3</td>
+        <td align="center" width="90"><img height="55" src="./icons/git.svg" width="55"><br>Git</td>
         <td align="center" width="90"><img height="55" src="./icons/javascript.svg" width="55"><br>JavaScript</td>
         <td align="center" width="90"><img height="55" src="./icons/numpy.svg" width="55"><br>NumPy</td>
         <td align="center" width="90"><img height="55" src="./icons/react.svg" width="55"><br>React</td>
         <td align="center" width="90"><img height="55" src="./icons/typescript.svg" width="55"><br>TypeScript</td>
     </tr>
     <tr>
-        <td align="center" width="90"><img height="55" src="./icons/css3.svg" width="55"><br>CSS3</td>
-        <td align="center" width="90"><img height="55" src="./icons/git.svg" width="55"><br>Git</td>
+        <td align="center" width="90"><img height="55" src="./icons/docker.svg" width="55"><br>Docker</td>
+        <td align="center" width="90"><img height="55" src="./icons/github.svg" width="55"><br>GitHub</td>
         <td align="center" width="90"><img height="55" src="./icons/kotlin.svg" width="55"><br>Kotlin</td>
         <td align="center" width="90"><img height="55" src="./icons/pandas.svg" width="55"><br>Pandas</td>
         <td align="center" width="90"><img height="55" src="./icons/stm32.svg" width="55"><br>STM32</td>
         <td align="center" width="90"><img height="55" src="./icons/vscode.svg" width="55"><br>VS Code</td>
     </tr>
     <tr>
-        <td align="center" width="90"><img height="55" src="./icons/docker.svg" width="55"><br>Docker</td>
-        <td align="center" width="90"><img height="55" src="./icons/github.svg" width="55"><br>GitHub</td>
+        <td align="center" width="90"><img height="55" src="./icons/esp32.svg" width="55"><br>ESP32</td>
+        <td align="center" width="90"><img height="55" src="./icons/html5.svg" width="55"><br>HTML5</td>
         <td align="center" width="90"><img height="55" src="./icons/linux.svg" width="55"><br>Linux</td>
         <td align="center" width="90"><img height="55" src="./icons/python.svg" width="55"><br>Python</td>
         <td align="center" width="90"><img height="55" src="./icons/swift.svg" width="55"><br>Swift</td>
-        <td align="center" width="90"></td>
-    </tr>
-    <tr>
-        <td align="center" width="90"><img height="55" src="./icons/esp32.svg" width="55"><br>ESP32</td>
-        <td align="center" width="90"><img height="55" src="./icons/html5.svg" width="55"><br>HTML5</td>
-        <td align="center" width="90"><img height="55" src="./icons/nextjs.svg" width="55"><br>Next.js</td>
-        <td align="center" width="90"><img height="55" src="./icons/raspberrypi.svg" width="55"><br>Raspberry Pi</td>
-        <td align="center" width="90"><img height="55" src="./icons/tailwindcss.svg" width="55"><br>Tailwind</td>
         <td align="center" width="90"></td>
     </tr>
 </table>
@@ -68,11 +68,13 @@
 
 **Flask** — <a href="https://github.com/Nl-T-lN/Predictive_pulse">Predictive_pulse</a>
 
-**HTML5** — <a href="https://github.com/Nl-T-lN/AutoOmr">AutoOmr</a>, <a href="https://github.com/Nl-T-lN/Golden-hands">Golden-hands</a>, <a href="https://github.com/Nl-T-lN/Nl-T-lN">Nl-T-lN</a>, <a href="https://github.com/Nl-T-lN/Predictive_pulse">Predictive_pulse</a>, <a href="https://github.com/Nl-T-lN/To-Do-List">To-Do-List</a>, <a href="https://github.com/Nl-T-lN/closet">closet</a>, <a href="https://github.com/Nl-T-lN/cypher-log">cypher-log</a>, <a href="https://github.com/Nl-T-lN/sky-clock">sky-clock</a>
+**HTML5** — <a href="https://github.com/Nl-T-lN/AutoOmr">AutoOmr</a>, <a href="https://github.com/Nl-T-lN/Golden-hands">Golden-hands</a>, <a href="https://github.com/Nl-T-lN/NativeExtractorEngine">NativeExtractorEngine</a>, <a href="https://github.com/Nl-T-lN/Nl-T-lN">Nl-T-lN</a>, <a href="https://github.com/Nl-T-lN/Predictive_pulse">Predictive_pulse</a>, <a href="https://github.com/Nl-T-lN/To-Do-List">To-Do-List</a>, <a href="https://github.com/Nl-T-lN/closet">closet</a>, <a href="https://github.com/Nl-T-lN/cypher-log">cypher-log</a>, <a href="https://github.com/Nl-T-lN/sky-clock">sky-clock</a>
+
+**Java** — <a href="https://github.com/Nl-T-lN/NativeExtractorEngine">NativeExtractorEngine</a>
 
 **JavaScript** — <a href="https://github.com/Nl-T-lN/AutoOmr">AutoOmr</a>, <a href="https://github.com/Nl-T-lN/Kainetic">Kainetic</a>, <a href="https://github.com/Nl-T-lN/NasaSpaceApps25">NasaSpaceApps25</a>, <a href="https://github.com/Nl-T-lN/To-Do-List">To-Do-List</a>, <a href="https://github.com/Nl-T-lN/cypher-log">cypher-log</a>, <a href="https://github.com/Nl-T-lN/kainetic-mobile">kainetic-mobile</a>, <a href="https://github.com/Nl-T-lN/mythx">mythx</a>, <a href="https://github.com/Nl-T-lN/sky-clock">sky-clock</a>, <a href="https://github.com/Nl-T-lN/ventify">ventify</a>
 
-**Kotlin** — <a href="https://github.com/Nl-T-lN/Arize">Arize</a>, <a href="https://github.com/Nl-T-lN/saathi">saathi</a>
+**Kotlin** — <a href="https://github.com/Nl-T-lN/Arize">Arize</a>, <a href="https://github.com/Nl-T-lN/NativeExtractorEngine">NativeExtractorEngine</a>, <a href="https://github.com/Nl-T-lN/saathi">saathi</a>
 
 **Next.js** — <a href="https://github.com/Nl-T-lN/Kainetic">Kainetic</a>, <a href="https://github.com/Nl-T-lN/NasaSpaceApps25">NasaSpaceApps25</a>, <a href="https://github.com/Nl-T-lN/mythx">mythx</a>, <a href="https://github.com/Nl-T-lN/ventify">ventify</a>
 
@@ -80,7 +82,7 @@
 
 **Pandas** — <a href="https://github.com/Nl-T-lN/Predictive_pulse">Predictive_pulse</a>
 
-**Python** — <a href="https://github.com/Nl-T-lN/AutoOmr">AutoOmr</a>, <a href="https://github.com/Nl-T-lN/Predictive_pulse">Predictive_pulse</a>
+**Python** — <a href="https://github.com/Nl-T-lN/AutoOmr">AutoOmr</a>, <a href="https://github.com/Nl-T-lN/Predictive_pulse">Predictive_pulse</a>, <a href="https://github.com/Nl-T-lN/kainetic-mobile">kainetic-mobile</a>
 
 **React** — <a href="https://github.com/Nl-T-lN/AutoOmr">AutoOmr</a>, <a href="https://github.com/Nl-T-lN/Kainetic">Kainetic</a>, <a href="https://github.com/Nl-T-lN/NasaSpaceApps25">NasaSpaceApps25</a>, <a href="https://github.com/Nl-T-lN/cypher-log">cypher-log</a>, <a href="https://github.com/Nl-T-lN/kainetic-mobile">kainetic-mobile</a>, <a href="https://github.com/Nl-T-lN/mythx">mythx</a>, <a href="https://github.com/Nl-T-lN/sky-clock">sky-clock</a>, <a href="https://github.com/Nl-T-lN/ventify">ventify</a>
 
@@ -88,7 +90,7 @@
 
 **Tailwind** — <a href="https://github.com/Nl-T-lN/AutoOmr">AutoOmr</a>, <a href="https://github.com/Nl-T-lN/NasaSpaceApps25">NasaSpaceApps25</a>, <a href="https://github.com/Nl-T-lN/mythx">mythx</a>
 
-**TypeScript** — <a href="https://github.com/Nl-T-lN/AutoOmr">AutoOmr</a>, <a href="https://github.com/Nl-T-lN/Kainetic">Kainetic</a>, <a href="https://github.com/Nl-T-lN/NasaSpaceApps25">NasaSpaceApps25</a>, <a href="https://github.com/Nl-T-lN/kainetic-mobile">kainetic-mobile</a>, <a href="https://github.com/Nl-T-lN/mythx">mythx</a>, <a href="https://github.com/Nl-T-lN/ventify">ventify</a>
+**TypeScript** — <a href="https://github.com/Nl-T-lN/AutoOmr">AutoOmr</a>, <a href="https://github.com/Nl-T-lN/Kainetic">Kainetic</a>, <a href="https://github.com/Nl-T-lN/NasaSpaceApps25">NasaSpaceApps25</a>, <a href="https://github.com/Nl-T-lN/NativeExtractorEngine">NativeExtractorEngine</a>, <a href="https://github.com/Nl-T-lN/kainetic-mobile">kainetic-mobile</a>, <a href="https://github.com/Nl-T-lN/mythx">mythx</a>, <a href="https://github.com/Nl-T-lN/ventify">ventify</a>
 
 </details>
 <!-- STACK:AUTO:END -->
