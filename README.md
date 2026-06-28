@@ -68,13 +68,13 @@
 
 **Flask** — <a href="https://github.com/Nl-T-lN/Predictive_pulse">Predictive_pulse</a>
 
-**HTML5** — <a href="https://github.com/Nl-T-lN/AutoOmr">AutoOmr</a>, <a href="https://github.com/Nl-T-lN/Golden-hands">Golden-hands</a>, <a href="https://github.com/Nl-T-lN/NativeExtractorEngine">NativeExtractorEngine</a>, <a href="https://github.com/Nl-T-lN/Nl-T-lN">Nl-T-lN</a>, <a href="https://github.com/Nl-T-lN/Predictive_pulse">Predictive_pulse</a>, <a href="https://github.com/Nl-T-lN/To-Do-List">To-Do-List</a>, <a href="https://github.com/Nl-T-lN/closet">closet</a>, <a href="https://github.com/Nl-T-lN/cypher-log">cypher-log</a>, <a href="https://github.com/Nl-T-lN/sky-clock">sky-clock</a>
+**HTML5** — <a href="https://github.com/Nl-T-lN/AutoOmr">AutoOmr</a>, <a href="https://github.com/Nl-T-lN/Golden-hands">Golden-hands</a>, <a href="https://github.com/Nl-T-lN/NativeExtractorEngine">NativeExtractorEngine</a>, <a href="https://github.com/Nl-T-lN/Nl-T-lN">Nl-T-lN</a>, <a href="https://github.com/Nl-T-lN/Predictive_pulse">Predictive_pulse</a>, <a href="https://github.com/Nl-T-lN/To-Do-List">To-Do-List</a>, <a href="https://github.com/Nl-T-lN/closet">closet</a>, <a href="https://github.com/Nl-T-lN/cypher-log">cypher-log</a>, <a href="https://github.com/Nl-T-lN/kainetic-extractor">kainetic-extractor</a>, <a href="https://github.com/Nl-T-lN/sky-clock">sky-clock</a>
 
-**Java** — <a href="https://github.com/Nl-T-lN/NativeExtractorEngine">NativeExtractorEngine</a>
+**Java** — <a href="https://github.com/Nl-T-lN/NativeExtractorEngine">NativeExtractorEngine</a>, <a href="https://github.com/Nl-T-lN/kainetic-extractor">kainetic-extractor</a>
 
 **JavaScript** — <a href="https://github.com/Nl-T-lN/AutoOmr">AutoOmr</a>, <a href="https://github.com/Nl-T-lN/Kainetic">Kainetic</a>, <a href="https://github.com/Nl-T-lN/NasaSpaceApps25">NasaSpaceApps25</a>, <a href="https://github.com/Nl-T-lN/To-Do-List">To-Do-List</a>, <a href="https://github.com/Nl-T-lN/cypher-log">cypher-log</a>, <a href="https://github.com/Nl-T-lN/kainetic-mobile">kainetic-mobile</a>, <a href="https://github.com/Nl-T-lN/mythx">mythx</a>, <a href="https://github.com/Nl-T-lN/sky-clock">sky-clock</a>, <a href="https://github.com/Nl-T-lN/ventify">ventify</a>
 
-**Kotlin** — <a href="https://github.com/Nl-T-lN/Arize">Arize</a>, <a href="https://github.com/Nl-T-lN/NativeExtractorEngine">NativeExtractorEngine</a>, <a href="https://github.com/Nl-T-lN/saathi">saathi</a>
+**Kotlin** — <a href="https://github.com/Nl-T-lN/Arize">Arize</a>, <a href="https://github.com/Nl-T-lN/NativeExtractorEngine">NativeExtractorEngine</a>, <a href="https://github.com/Nl-T-lN/kainetic-extractor">kainetic-extractor</a>, <a href="https://github.com/Nl-T-lN/saathi">saathi</a>
 
 **Next.js** — <a href="https://github.com/Nl-T-lN/Kainetic">Kainetic</a>, <a href="https://github.com/Nl-T-lN/NasaSpaceApps25">NasaSpaceApps25</a>, <a href="https://github.com/Nl-T-lN/mythx">mythx</a>, <a href="https://github.com/Nl-T-lN/ventify">ventify</a>
 
@@ -90,7 +90,7 @@
 
 **Tailwind** — <a href="https://github.com/Nl-T-lN/AutoOmr">AutoOmr</a>, <a href="https://github.com/Nl-T-lN/NasaSpaceApps25">NasaSpaceApps25</a>, <a href="https://github.com/Nl-T-lN/mythx">mythx</a>
 
-**TypeScript** — <a href="https://github.com/Nl-T-lN/AutoOmr">AutoOmr</a>, <a href="https://github.com/Nl-T-lN/Kainetic">Kainetic</a>, <a href="https://github.com/Nl-T-lN/NasaSpaceApps25">NasaSpaceApps25</a>, <a href="https://github.com/Nl-T-lN/NativeExtractorEngine">NativeExtractorEngine</a>, <a href="https://github.com/Nl-T-lN/kainetic-mobile">kainetic-mobile</a>, <a href="https://github.com/Nl-T-lN/mythx">mythx</a>, <a href="https://github.com/Nl-T-lN/ventify">ventify</a>
+**TypeScript** — <a href="https://github.com/Nl-T-lN/AutoOmr">AutoOmr</a>, <a href="https://github.com/Nl-T-lN/Kainetic">Kainetic</a>, <a href="https://github.com/Nl-T-lN/NasaSpaceApps25">NasaSpaceApps25</a>, <a href="https://github.com/Nl-T-lN/NativeExtractorEngine">NativeExtractorEngine</a>, <a href="https://github.com/Nl-T-lN/kainetic-extractor">kainetic-extractor</a>, <a href="https://github.com/Nl-T-lN/kainetic-mobile">kainetic-mobile</a>, <a href="https://github.com/Nl-T-lN/mythx">mythx</a>, <a href="https://github.com/Nl-T-lN/ventify">ventify</a>
 
 </details>
 <!-- STACK:AUTO:END -->
